@@ -1,0 +1,123 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPageHome.Master.vb" Inherits="Assignment.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    .style2
+    {
+        width: 512px;
+    }
+        .style3
+        {
+            width: 125px;
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="style1" cellpadding="0" cellspacing="0">
+            <tr>
+                <td bgcolor="Black" class="style2" style="width: 15%">
+                    <img alt="" class="style3" src="Image/ZNA.PNG" /></td>
+                <td align="center" bgcolor="Black" 
+                    style="color: #FFFFFF; font-size: xx-large; font-family: Broadway">
+                    We Serve You The Best</td>
+            </tr>
+        </table>
+    </div>
+    <table class="style1">
+        <tr>
+            <td bgcolor="#000066" style="width: 50%">
+                &nbsp;</td>
+            <td bgcolor="#000066" style="width: 50%">
+                    <asp:Menu ID="HomeMenu" runat="server" ForeColor="White" 
+                        Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="| About ZNA" Value="About ZNA" 
+                                NavigateUrl="~/AboutZNA.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="| FAQ" Value="FAQ"></asp:MenuItem>
+                            <asp:MenuItem Text="| Branches &amp; ATMs" Value="Branches &amp; ATMs">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="| Contact Us" Value="Contact Us"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+        </tr>
+    </table>
+    <div>
+        <table class="style1">
+            <tr>
+                <td bgcolor="#000066" class="style2" style="width: 15%" valign="top">
+                    <asp:Menu ID="LoginMenu" runat="server" ForeColor="White">
+                        <Items>
+                            <asp:MenuItem Text="Login" Value="Login">
+                                <asp:MenuItem Text="Staff" Value="Staff"></asp:MenuItem>
+                                <asp:MenuItem Text="Client" Value="Client"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <table class="style1">
+        <tr>
+            <td bgcolor="#000066" class="style5" 
+                style="background-color: #000066; width: 15%" valign="top">
+                    <asp:TreeView ID="CalculatorMenu" runat="server" ExpandDepth="0" 
+                        ForeColor="White">
+                        <Nodes>
+                            <asp:TreeNode Text="Calculator" Value="Calculator">
+                                <asp:TreeNode Text="Property Loan" Value="Property Loan"></asp:TreeNode>
+                                <asp:TreeNode Text="Personal Loan" Value="Personal Loan"></asp:TreeNode>
+                            </asp:TreeNode>
+                        </Nodes>
+                    </asp:TreeView>
+                </td>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    <div>
+        <table class="style1">
+            <tr>
+                <td style="width: 29%">
+                    &nbsp;</td>
+                <td align="center">
+                    <asp:Menu ID="FooterMenu" runat="server" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem Text="Term &amp; Condition |" Value="Term &amp; Condition ">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Privacy Policy |" Value="Privacy Policy "></asp:MenuItem>
+                            <asp:MenuItem Text="ZNA Site Map |" Value="ZNA Site Map |"></asp:MenuItem>
+                            <asp:MenuItem Text="© ZNA Bank Ltd" Value="ZNA Bank Ltd"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td style="width: 29%">
+                    &nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

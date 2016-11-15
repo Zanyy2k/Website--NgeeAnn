@@ -1,0 +1,10 @@
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\bin\Assignment.dll
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\bin\Assignment.pdb
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\bin\Assignment.xml
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\ResolveAssemblyReference.cache
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\Assignment.Resources.resources
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\GenerateResource.read.1.tlog
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\GenerateResource.write.1.tlog
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\Assignment.dll
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\Assignment.xml
+D:\NGEE ANN POLY\sem 2.1\Developing Web Application\Assignment\Assignment\Assignment\obj\Debug\Assignment.pdb
